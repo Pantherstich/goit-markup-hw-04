@@ -308,11 +308,16 @@ body {
     padding: 120px 0;
 }
 .customers-list{
-  pading: 10px;
   display:flex;
   gap: 24px;
 }
+.customers-list-item{
+  
+}
 .customer-icon {
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   fill: #8E8F99;
