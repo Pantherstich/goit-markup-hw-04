@@ -62,6 +62,7 @@ body {
   display: flex;
   padding: 0 15px;
   margin: 0 auto;
+  align-items: center;
 }
 /* Логотип */
 .logo-nav.link {
@@ -96,6 +97,7 @@ body {
   gap: 40px;
 }
 .site-nav-item {
+  display: block;
   padding: 24px 0;
   font-style: normal;
   font-weight: 500;
@@ -106,8 +108,7 @@ body {
 }
 .contacts {
   margin-left: auto;
-  padding: 24px 0;
-}
+  }
 .contacts .list {
   display: flex;
   min-width: 340px;
@@ -125,6 +126,13 @@ body {
 /* Герой */
 .hero {
   padding: 188px 0;
+  background-image: linear-gradient(to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),url(/images/people-office.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:1440px;
   background-color: #2e2f42;
 }
 .hero-heading {
@@ -193,7 +201,6 @@ body {
 }
 
 .about-list-title {
-  margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
