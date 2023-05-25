@@ -290,6 +290,10 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 .team-discribtion {
   padding: 32px 16px;
@@ -307,12 +311,32 @@ body {
 .сustomers{
     padding: 120px 0;
 }
+/* соцальні іконки */
+.social-list {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icon {
+
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color:rgba(77, 90, 229, 1);
+  border-radius:50% ;
+      overflow: visible;
+  fill: rgb(255, 255, 255);
+}
+
+.social-icon:hover {
+  background-color: rgba(64, 75, 191, 1);
+}
+
+
+/* клієнти іконки */
 .customers-list{
   display:flex;
   gap: 24px;
-}
-.customers-list-item{
-  
 }
 .customer-icon {
   width: 168px;
@@ -339,8 +363,9 @@ body {
   color: #f4f4fd;
   background-color: var(--heading-text-color);
 }
-.footer-container {
-  flex-direction: column;
+.footer-flex{
+  display: flex;
+  gap: 120px;
 }
 
 .logo-footer {
@@ -362,6 +387,34 @@ body {
   max-width: 264px;
 }
 
+.social-list-footer {
+  display: flex;
+  gap: 24px;
+}
+.social-icon-footer {
+
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  overflow: visible;
+  fill: rgb(255, 255, 255);
+}
+
+.social-icon-footer:hover {
+  background-color:rgba(49, 208, 170, 1);
+}
+.social-media-p{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.02em;  
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
 /* Portfolio */
 
 .image-filter-list {
