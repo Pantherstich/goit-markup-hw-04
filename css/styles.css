@@ -207,9 +207,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .about-list-item {
-  margin-top: 8px;
+  /* margin-top: 8px; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -256,7 +257,7 @@ body {
 /* .team > .container {
   flex-direction: column; */
 /* } */
-.team-title {
+.team-title, .customers-title{
   margin-bottom: 72px;
   font-style: normal;
   text-align: center;
@@ -301,6 +302,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+/* клієнти */
+.сustomers{
+    padding: 120px 0;
+}
+.customers-list{
+  pading: 10px;
+  display:flex;
+  gap: 24px;
+}
+.customer-icon {
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  fill: #8E8F99;
+}
+.customer-icon:hover {
+ border-color: #404bbf;
+ fill: #404bbf;
 }
 
 /* Підвал */
