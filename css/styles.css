@@ -637,8 +637,9 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box:hover > .project-overlay,
-.project-box:focus > .project-overlay {
+
+.app-link:hover .project-overlay,
+.app-link:focus .project-overlay {
   transform: translateY(0%);
 }
 
