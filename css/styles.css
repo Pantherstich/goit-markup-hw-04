@@ -204,6 +204,7 @@ body {
   min-height: 584px; */
   height: 100%;
   width: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -228,6 +229,9 @@ body {
   pointer-events: none;
 }
 .x-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 24px;
   height: 24px;
@@ -633,12 +637,11 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box:hover > .project-overlay {
-  transform: translateY(0%);
-}
+.project-box:hover > .project-overlay,
 .project-box:focus > .project-overlay {
   transform: translateY(0%);
 }
+
 .project-overlay {
   position: absolute;
   height: 100%;
